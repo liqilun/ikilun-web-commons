@@ -1,0 +1,1 @@
+call mvn dependency:build-classpath -U -Pdeploy -Dmdep.pathSeparator=;  -DexcludeScope=provided -Dmdep.outputFile=jarList.bak
